@@ -8,7 +8,7 @@ docker rm openldap
  docker run -d -p 389:389 -p 636:636 \
 --name openldap \
 --env LDAP_ORGANISATION="Manage" \
---env LDAP_DOMAIN="tmofamily.com" \
+--env LDAP_DOMAIN="test.com" \
 --env LDAP_ADMIN_PASSWORD="" \
 --env LDAP_CONFIG_PASSWORD="" \
 --env LDAP_READONLY_USER="readonly" \
