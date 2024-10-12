@@ -1,0 +1,1 @@
+使用docker搭建ldap服务,在redmine配置ldap服务流程，包括ldap客户端整合到一起了！！！通过图片学习
